@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/nav.ejs') %>
+<!--Content-->
+<div class="container-fluid text-center">
+  <h1><%= title %></h1>
+  <p>Welcome to <%= title %></p>
+    <div class="row align-items-start">
+        <article>
+            <h2>Contact Me</h2>
+            <form action=mailto:kevin.domaoa@ontariotechu.net ?subject=Contact Form method="post" enctype="text/plain" name="form">
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" placeholder="Enter your name here" size="32" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input name="email" type="email" placeholder="Enter your email here" size="40" required>
+                    </p>
+                    <p>
+                        <label for="message">Message: </label><br>
+                        <textarea name="comments" cols="60" rows="8"></textarea>
+                    </p>
+
+
+                    <p><input type="submit" value="Submit"/></p>
+                    <p><input type="reset"  value="Reset"/></p>
+            </form>
+        </article>
+<%- include('partials/footer.ejs') %>

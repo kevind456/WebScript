@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.figure {
+    margin: 20px;
+    text-align: center; 
+    width: 50%;
+    height: auto;
+  }
+
+.box{
+    max-width: 50%;
+}
+
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .github-icon {
+    font-size: 48px; 
+    color: #6b6b6b;    
+    text-decoration: none;
+  }
+
+  .github-icon:hover {
+    color: #4078c0;  
+  }
+  
+   
+  
